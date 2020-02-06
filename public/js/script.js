@@ -1,5 +1,5 @@
 let btnRoll = document.querySelector('#btn-roll');
-let dieOnScreen = document.querySelector('#dice')
+let dieOnScreen = document.querySelector('#dieImg')
 
 btnRoll.addEventListener('click', function() {
     
@@ -16,13 +16,10 @@ function valueForDice(){
     return dieScore;
 } 
 
-function displayDice(die, dieScore){
+function displayDice(image, numOfImage){
     
-    let previousScore = die.className;
-    console.log(previousScore);
+    console.log(image);
+    image.src = 'img/die0' + numOfImage + '.png';
+    
 
-    let newScore = 'dice_' + dieScore;
-    console.log(newScore);
-
-    die.classList.replace(previousScore, newScore);
 }

@@ -1,7 +1,5 @@
-#dice {
-    background-image:url('http://www.clker.com/cliparts/e/7/4/4/1194991183406177705six-sided_dice_faces_lio_01.svg.med.png');
+.dice {  
     margin: 0 auto;
-    background-size: 550%;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -31,20 +29,20 @@ h2{
 }
 
 .dice_1 {
-    background-position:0px 0px;
+   background-image: url('img/die01.png');
 }
 .dice_2 {
-    background-position:-50px 0px;
+    background-image: url('img/die02.png');
 }
 .dice_3 {
-    background-position:-101px 0px;
+    background-image: url('img/die03.png');
 }
 .dice_4 {
-    background-position:-151px 0px;
+    background-image: url('img/die04.png');
 }
 .dice_5 {
-    background-position:-201px 0px;
+    background-image: url('img/die05.png');
 }
 .dice_6 {
-    background-position:-251px 0px;
+    background-image: url('img/die06.png');
 }
