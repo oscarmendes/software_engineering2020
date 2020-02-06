@@ -1,3 +1,15 @@
+
+#animation { 
+    background-image: url('/img/sixSided.png');
+    background-repeat: no-repeat;
+    background-size: 600%; 
+    height: 150px; 
+    width: 150px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 .dice {  
     margin: 0 auto;
     height: 150px;
